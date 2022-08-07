@@ -649,6 +649,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thunder"
+    },
+    {
+      "name": "THunderp",
+      "type": "enchantment",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_hunderp"
+    },
+    {
+      "name": "WOOD",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood"
+    },
+    {
+      "name": "WoodenStaff",
+      "type": "rangeditem",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_staff"
+    },
+    {
+      "name": "Wodd",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wodd"
+    },
+    {
+      "name": "WOODSTAFF",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodstaff"
     }
   ],
   "variable_elements": [],
@@ -656,6 +696,7 @@
   "language_map": {
     "en_us": {
       "block.dragon_pack.drake_slab": "Drake Slab",
+      "enchantment.dragon_pack.t_hunderp": "T Hunderp",
       "item.dragon_pack.electric_ingot_pickaxe": "Electric_ingot Pickaxe",
       "item.dragon_pack.blaze_armor_leggings": "Blaze Leggings",
       "item.dragon_pack.electric_ingot_hoe": "Electric_ingot Hoe",
@@ -692,7 +733,9 @@
       "item.dragon_pack.electric_ingot_ingot": "Electric_ingot",
       "block.dragon_pack.drake_log": "Drake Log",
       "item.dragon_pack.electric_ingot_sword": "Electric_ingot Sword",
-      "item.dragon_pack.electric_ingot_armor_helmet": "Electric_ingot Helmet"
+      "item.dragon_pack.wood": "WOOD",
+      "item.dragon_pack.electric_ingot_armor_helmet": "Electric_ingot Helmet",
+      "item.dragon_pack.wooden_staff": "Wooden Staff"
     }
   },
   "foldersRoot": {

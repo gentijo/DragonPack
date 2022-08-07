@@ -13,6 +13,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.dragonpack.item.WoodenStaffItem;
+import net.mcreator.dragonpack.item.WOODItem;
 import net.mcreator.dragonpack.item.ThunderItem;
 import net.mcreator.dragonpack.item.ThunderFistItem;
 import net.mcreator.dragonpack.item.StickOfWaterItem;
@@ -76,6 +78,8 @@ public class DragonPackModItems {
 			() -> new Electric_ingotArmorItem.Boots());
 	public static final RegistryObject<Item> THUNDER_FIST = REGISTRY.register("thunder_fist", () -> new ThunderFistItem());
 	public static final RegistryObject<Item> THUNDER = REGISTRY.register("thunder", () -> new ThunderItem());
+	public static final RegistryObject<Item> WOOD = REGISTRY.register("wood", () -> new WOODItem());
+	public static final RegistryObject<Item> WOODEN_STAFF = REGISTRY.register("wooden_staff", () -> new WoodenStaffItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

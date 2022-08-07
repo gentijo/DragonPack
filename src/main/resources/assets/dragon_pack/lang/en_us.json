@@ -1,5 +1,6 @@
 {
   "block.dragon_pack.drake_slab": "Drake Slab",
+  "enchantment.dragon_pack.t_hunderp": "T Hunderp",
   "item.dragon_pack.electric_ingot_pickaxe": "Electric_ingot Pickaxe",
   "item.dragon_pack.blaze_armor_leggings": "Blaze Leggings",
   "item.dragon_pack.electric_ingot_hoe": "Electric_ingot Hoe",
@@ -36,5 +37,7 @@
   "item.dragon_pack.electric_ingot_ingot": "Electric_ingot",
   "block.dragon_pack.drake_log": "Drake Log",
   "item.dragon_pack.electric_ingot_sword": "Electric_ingot Sword",
-  "item.dragon_pack.electric_ingot_armor_helmet": "Electric_ingot Helmet"
+  "item.dragon_pack.wood": "WOOD",
+  "item.dragon_pack.electric_ingot_armor_helmet": "Electric_ingot Helmet",
+  "item.dragon_pack.wooden_staff": "Wooden Staff"
 }

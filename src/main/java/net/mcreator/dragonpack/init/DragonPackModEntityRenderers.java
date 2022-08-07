@@ -16,5 +16,6 @@ public class DragonPackModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(DragonPackModEntities.AQUA_TRIDENT.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DragonPackModEntities.WOODEN_STAFF.get(), ThrownItemRenderer::new);
 	}
 }

@@ -1,0 +1,38 @@
+{
+  "_fv": 28,
+  "_type": "enchantment",
+  "definition": {
+    "name": "T Hunderp",
+    "type": "BREAKABLE",
+    "rarity": "UNCOMMON",
+    "minLevel": 1,
+    "maxLevel": 1,
+    "damageModifier": 55,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:ThunderFist"
+      },
+      {
+        "value": "CUSTOM:Electric_ingotSword"
+      },
+      {
+        "value": "CUSTOM:Electric_ingotHoe"
+      },
+      {
+        "value": "CUSTOM:Electric_ingotShovel"
+      },
+      {
+        "value": "CUSTOM:Electric_ingotAxe"
+      },
+      {
+        "value": "CUSTOM:Electric_ingotPickaxe"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}
