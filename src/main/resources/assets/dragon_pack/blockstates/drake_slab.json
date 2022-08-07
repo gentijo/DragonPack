@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dragon_pack:block/drake_slab"
+    },
+    "type=top": {
+      "model": "dragon_pack:block/drake_slab_top"
+    },
+    "type=double": {
+      "model": "dragon_pack:block/drake_slab_full"
+    }
+  }
+}

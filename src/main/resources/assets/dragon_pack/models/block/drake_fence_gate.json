@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "texture": "dragon_pack:blocks/drake_planks"
+  }
+}

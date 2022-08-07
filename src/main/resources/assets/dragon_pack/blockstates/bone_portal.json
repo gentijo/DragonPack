@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dragon_pack:block/bone_portal_ew"
+    },
+    "axis=x": {
+      "model": "dragon_pack:block/bone_portal_ns"
+    }
+  }
+}

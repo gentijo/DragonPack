@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Electric_ingotIngot"
+      },
+      {
+        "value": "CUSTOM:Electric_ingotIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Electric_ingotIngot"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Electric_ingotAxe"
+    },
+    "name": "electric_ingot_axe_recipe",
+    "namespace": "mod"
+  }
+}

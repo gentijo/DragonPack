@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dragon_pack:crystal_block"
+    }
+  ],
+  "result": {
+    "item": "dragon_pack:crystal",
+    "count": 9
+  }
+}

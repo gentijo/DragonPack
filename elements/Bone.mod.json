@@ -1,0 +1,45 @@
+{
+  "_fv": 28,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:DrakeForest"
+      },
+      {
+        "value": "CUSTOM:Eded"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.BONE_BLOCK"
+    },
+    "fluidBlock": {
+      "value": "Blocks.BONE_BLOCK"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.BONE_BLOCK"
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Bone Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "d",
+    "portalTexture": "rer",
+    "enablePortal": true
+  }
+}

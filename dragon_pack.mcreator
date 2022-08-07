@@ -1,0 +1,720 @@
+{
+  "mod_elements": [
+    {
+      "name": "AquaStick",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqua_stick"
+    },
+    {
+      "name": "Water",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water"
+    },
+    {
+      "name": "StickOfWater",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_of_water"
+    },
+    {
+      "name": "What",
+      "type": "villagertrade",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what"
+    },
+    {
+      "name": "Hed",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hed"
+    },
+    {
+      "name": "DrakeWood",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_wood"
+    },
+    {
+      "name": "DrakeLog",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_log"
+    },
+    {
+      "name": "DrakePlanks",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_planks"
+    },
+    {
+      "name": "DrakeLeaves",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_leaves"
+    },
+    {
+      "name": "DrakeStairs",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_stairs"
+    },
+    {
+      "name": "DrakeSlab",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_slab"
+    },
+    {
+      "name": "DrakeFence",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_fence"
+    },
+    {
+      "name": "DrakeFenceGate",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_fence_gate"
+    },
+    {
+      "name": "DrakePressurePlate",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_pressure_plate"
+    },
+    {
+      "name": "DrakeButton",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_button"
+    },
+    {
+      "name": "DrakeItemsTag",
+      "type": "tag",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_items_tag"
+    },
+    {
+      "name": "DrakeWoodRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_wood_recipe"
+    },
+    {
+      "name": "DrakePlanksRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_planks_recipe"
+    },
+    {
+      "name": "DrakeStairsRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_stairs_recipe"
+    },
+    {
+      "name": "DrakeSlabRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_slab_recipe"
+    },
+    {
+      "name": "DrakeFenceRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_fence_recipe"
+    },
+    {
+      "name": "DrakeFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_fence_gate_recipe"
+    },
+    {
+      "name": "DrakePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_pressure_plate_recipe"
+    },
+    {
+      "name": "DrakeButtonRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_button_recipe"
+    },
+    {
+      "name": "DrakeStickRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_stick_recipe"
+    },
+    {
+      "name": "AquaTrident",
+      "type": "rangeditem",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqua_trident"
+    },
+    {
+      "name": "DrakeForest",
+      "type": "biome",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drake_forest"
+    },
+    {
+      "name": "Eded",
+      "type": "biome",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eded"
+    },
+    {
+      "name": "Crossbone",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crossbone"
+    },
+    {
+      "name": "Bone",
+      "type": "dimension",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Crystal",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal"
+    },
+    {
+      "name": "CrystalOre",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_ore"
+    },
+    {
+      "name": "CrystalBlock",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_block"
+    },
+    {
+      "name": "CrystalOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_ore_block_recipe"
+    },
+    {
+      "name": "CrystalBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_block_ore_recipe"
+    },
+    {
+      "name": "CrystalOreSmelting",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_ore_smelting"
+    },
+    {
+      "name": "BlazeArmor",
+      "type": "armor",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BlazeArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_armor_helmet_recipe"
+    },
+    {
+      "name": "BlazeArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_armor_body_recipe"
+    },
+    {
+      "name": "BlazeArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_armor_leggings_recipe"
+    },
+    {
+      "name": "BlazeArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_armor_boots_recipe"
+    },
+    {
+      "name": "BlazeArmorLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_armor_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlazeArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlazeArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlazeArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Electric_ingotIngot",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_ingot"
+    },
+    {
+      "name": "Electric_ingotOre",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_ore"
+    },
+    {
+      "name": "Electric_ingotBlock",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_block"
+    },
+    {
+      "name": "Electric_ingotOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_ore_block_recipe"
+    },
+    {
+      "name": "Electric_ingotBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_block_ore_recipe"
+    },
+    {
+      "name": "Electric_ingotOreSmelting",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_ore_smelting"
+    },
+    {
+      "name": "Electric_ingotPickaxe",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_pickaxe"
+    },
+    {
+      "name": "Electric_ingotAxe",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_axe"
+    },
+    {
+      "name": "Electric_ingotSword",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_sword"
+    },
+    {
+      "name": "Electric_ingotShovel",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_shovel"
+    },
+    {
+      "name": "Electric_ingotHoe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_hoe"
+    },
+    {
+      "name": "Electric_ingotPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_pickaxe_recipe"
+    },
+    {
+      "name": "Electric_ingotAxeRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_axe_recipe"
+    },
+    {
+      "name": "Electric_ingotSwordRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_sword_recipe"
+    },
+    {
+      "name": "Electric_ingotShovelRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_shovel_recipe"
+    },
+    {
+      "name": "Electric_ingotHoeRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_hoe_recipe"
+    },
+    {
+      "name": "Electric_ingotArmor",
+      "type": "armor",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Electric_ingotArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_armor_helmet_recipe"
+    },
+    {
+      "name": "Electric_ingotArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_armor_body_recipe"
+    },
+    {
+      "name": "Electric_ingotArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_armor_leggings_recipe"
+    },
+    {
+      "name": "Electric_ingotArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_ingot_armor_boots_recipe"
+    },
+    {
+      "name": "ThunderFistBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_fist_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ThunderFist",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_fist"
+    },
+    {
+      "name": "Thunder",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.dragon_pack.drake_slab": "Drake Slab",
+      "item.dragon_pack.electric_ingot_pickaxe": "Electric_ingot Pickaxe",
+      "item.dragon_pack.blaze_armor_leggings": "Blaze Leggings",
+      "item.dragon_pack.electric_ingot_hoe": "Electric_ingot Hoe",
+      "block.dragon_pack.crystal_ore": "Crystal Ore",
+      "item.dragon_pack.electric_ingot_armor_leggings": "Electric_ingot Leggings",
+      "item.dragon_pack.stick_of_water": "Stick Of Water",
+      "biome.dragon_pack.eded": "Eded",
+      "item.dragon_pack.aqua_stick": "Aqua Stick",
+      "item.dragon_pack.blaze_armor_boots": "Blaze Boots",
+      "item.dragon_pack.bone": "Bone Portal Igniter",
+      "item.dragon_pack.thunder_fist": "Thunder Fist",
+      "block.dragon_pack.drake_stairs": "Drake Stairs",
+      "item.dragon_pack.crystal": "Crystal",
+      "block.dragon_pack.drake_wood": "Drake Wood",
+      "item.dragon_pack.electric_ingot_axe": "Electric_ingot Axe",
+      "block.dragon_pack.drake_fence": "Drake Fence",
+      "item.dragon_pack.crossbone": "Crossbone",
+      "block.dragon_pack.drake_fence_gate": "Drake Fence Gate",
+      "item.dragon_pack.electric_ingot_armor_chestplate": "Electric_ingot Chestplate",
+      "biome.dragon_pack.drake_forest": "Drake Forest",
+      "block.dragon_pack.drake_leaves": "Drake Leaves",
+      "item.dragon_pack.electric_ingot_armor_boots": "Electric_ingot Boots",
+      "item.dragon_pack.thunder": "Thunder",
+      "item.dragon_pack.aqua_trident": "Aqua Trident",
+      "item.dragon_pack.electric_ingot_shovel": "Electric_ingot Shovel",
+      "item.dragon_pack.blaze_armor_chestplate": "Blaze Chestplate",
+      "block.dragon_pack.drake_pressure_plate": "Drake Pressure Plate",
+      "block.dragon_pack.electric_ingot_ore": "Electric_ingot Ore",
+      "block.dragon_pack.electric_ingot_block": "Block of Electric_ingot",
+      "block.dragon_pack.drake_button": "Drake Button",
+      "block.dragon_pack.drake_planks": "Drake Planks",
+      "item.dragon_pack.blaze_armor_helmet": "Blaze Helmet",
+      "block.dragon_pack.crystal_block": "Block of Crystal",
+      "item.dragon_pack.electric_ingot_ingot": "Electric_ingot",
+      "block.dragon_pack.drake_log": "Drake Log",
+      "item.dragon_pack.electric_ingot_sword": "Electric_ingot Sword",
+      "item.dragon_pack.electric_ingot_armor_helmet": "Electric_ingot Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dragon_pack",
+    "modName": "Dragon Pack",
+    "version": "1.0.0",
+    "author": "gentijo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.dragonpack",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

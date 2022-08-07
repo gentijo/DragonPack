@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dragon_pack:crystal_ore",
+    "dragon_pack:crystal_block",
+    "dragon_pack:electric_ingot_ore",
+    "dragon_pack:electric_ingot_block"
+  ]
+}

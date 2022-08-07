@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "dragon_pack:blocks/drake_planks",
+    "top": "dragon_pack:blocks/drake_planks",
+    "side": "dragon_pack:blocks/drake_planks"
+  }
+}

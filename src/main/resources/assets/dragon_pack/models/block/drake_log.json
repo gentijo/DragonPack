@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dragon_pack:blocks/drake_log_top",
+    "up": "dragon_pack:blocks/drake_log_top",
+    "north": "dragon_pack:blocks/drake_log_side",
+    "east": "dragon_pack:blocks/drake_log_side",
+    "south": "dragon_pack:blocks/drake_log_side",
+    "west": "dragon_pack:blocks/drake_log_side",
+    "particle": "dragon_pack:blocks/drake_log_top"
+  }
+}

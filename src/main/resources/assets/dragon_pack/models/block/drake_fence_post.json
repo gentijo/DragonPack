@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "dragon_pack:blocks/drake_planks",
+    "particle": "dragon_pack:blocks/drake_planks"
+  }
+}

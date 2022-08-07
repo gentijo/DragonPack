@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "dragon_pack:drake_planks"
+    },
+    "1": {
+      "item": "dragon_pack:drake_planks"
+    }
+  },
+  "result": {
+    "item": "dragon_pack:drake_pressure_plate",
+    "count": 1
+  }
+}

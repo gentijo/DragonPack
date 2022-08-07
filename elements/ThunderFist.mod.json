@@ -1,0 +1,36 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "eqwe",
+    "customModelName": "Normal",
+    "name": "Thunder Fist",
+    "specialInfo": [
+      "A fist made of thunder"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.0,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Electric_ingotIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "ThunderFistBlockDestroyedWithTool"
+    }
+  }
+}

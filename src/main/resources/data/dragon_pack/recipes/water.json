@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:quartz_block"
+    },
+    "1": {
+      "item": "minecraft:quartz_block"
+    },
+    "2": {
+      "item": "minecraft:quartz_block"
+    },
+    "3": {
+      "item": "minecraft:vine"
+    },
+    "4": {
+      "item": "minecraft:light_blue_concrete"
+    },
+    "5": {
+      "item": "minecraft:vine"
+    },
+    "6": {
+      "item": "minecraft:blue_concrete"
+    },
+    "7": {
+      "item": "minecraft:vine"
+    },
+    "8": {
+      "item": "minecraft:blue_concrete"
+    }
+  },
+  "result": {
+    "item": "dragon_pack:aqua_stick",
+    "count": 1
+  }
+}

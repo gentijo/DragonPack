@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dragon_pack:crystal"
+    },
+    "1": {
+      "item": "dragon_pack:crystal"
+    },
+    "2": {
+      "item": "dragon_pack:crystal"
+    },
+    "3": {
+      "item": "dragon_pack:crystal"
+    },
+    "4": {
+      "item": "dragon_pack:crystal"
+    },
+    "5": {
+      "item": "dragon_pack:crystal"
+    },
+    "6": {
+      "item": "dragon_pack:crystal"
+    },
+    "7": {
+      "item": "dragon_pack:crystal"
+    },
+    "8": {
+      "item": "dragon_pack:crystal"
+    }
+  },
+  "result": {
+    "item": "dragon_pack:crystal_block",
+    "count": 1
+  }
+}

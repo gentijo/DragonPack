@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dragon_pack:electric_ingot_block"
+    }
+  ],
+  "result": {
+    "item": "dragon_pack:electric_ingot_ingot",
+    "count": 9
+  }
+}

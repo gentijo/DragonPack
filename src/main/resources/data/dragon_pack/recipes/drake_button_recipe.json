@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dragon_pack:drake_planks"
+    }
+  ],
+  "result": {
+    "item": "dragon_pack:drake_button",
+    "count": 1
+  }
+}

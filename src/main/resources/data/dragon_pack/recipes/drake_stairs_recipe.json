@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dragon_pack:drake_planks"
+    },
+    "3": {
+      "item": "dragon_pack:drake_planks"
+    },
+    "4": {
+      "item": "dragon_pack:drake_planks"
+    },
+    "6": {
+      "item": "dragon_pack:drake_planks"
+    },
+    "7": {
+      "item": "dragon_pack:drake_planks"
+    },
+    "8": {
+      "item": "dragon_pack:drake_planks"
+    }
+  },
+  "result": {
+    "item": "dragon_pack:drake_stairs",
+    "count": 4
+  }
+}

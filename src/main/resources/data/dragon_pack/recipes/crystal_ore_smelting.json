@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "dragon_pack:crystal_ore"
+  },
+  "result": "dragon_pack:crystal"
+}

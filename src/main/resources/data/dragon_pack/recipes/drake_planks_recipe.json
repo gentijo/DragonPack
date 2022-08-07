@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:drake_log"
+    }
+  ],
+  "result": {
+    "item": "dragon_pack:drake_planks",
+    "count": 4
+  }
+}
