@@ -18,5 +18,6 @@ public class DragonPackModEntityRenderers {
 		event.registerEntityRenderer(DragonPackModEntities.AQUA_TRIDENT.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(DragonPackModEntities.WOODEN_STAFF.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(DragonPackModEntities.BOOM.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DragonPackModEntities.BOMB.get(), ThrownItemRenderer::new);
 	}
 }
