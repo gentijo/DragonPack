@@ -29,6 +29,7 @@ import net.mcreator.dragonpack.item.CrystalItem;
 import net.mcreator.dragonpack.item.CrossboneItem;
 import net.mcreator.dragonpack.item.BoneItem;
 import net.mcreator.dragonpack.item.BlazeArmorItem;
+import net.mcreator.dragonpack.item.BOOMItem;
 import net.mcreator.dragonpack.item.AquaTridentItem;
 import net.mcreator.dragonpack.item.AquaStickItem;
 import net.mcreator.dragonpack.DragonPackMod;
@@ -80,6 +81,7 @@ public class DragonPackModItems {
 	public static final RegistryObject<Item> THUNDER = REGISTRY.register("thunder", () -> new ThunderItem());
 	public static final RegistryObject<Item> WOOD = REGISTRY.register("wood", () -> new WOODItem());
 	public static final RegistryObject<Item> WOODEN_STAFF = REGISTRY.register("wooden_staff", () -> new WoodenStaffItem());
+	public static final RegistryObject<Item> BOOM = REGISTRY.register("boom", () -> new BOOMItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

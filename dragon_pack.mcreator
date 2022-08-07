@@ -689,6 +689,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "woodstaff"
+    },
+    {
+      "name": "STring",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_tring"
+    },
+    {
+      "name": "BOOM",
+      "type": "rangeditem",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boom"
+    },
+    {
+      "name": "Boomty",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boomty"
     }
   ],
   "variable_elements": [],
@@ -725,6 +749,7 @@
       "item.dragon_pack.blaze_armor_chestplate": "Blaze Chestplate",
       "block.dragon_pack.drake_pressure_plate": "Drake Pressure Plate",
       "block.dragon_pack.electric_ingot_ore": "Electric_ingot Ore",
+      "item.dragon_pack.boom": "BOOM",
       "block.dragon_pack.electric_ingot_block": "Block of Electric_ingot",
       "block.dragon_pack.drake_button": "Drake Button",
       "block.dragon_pack.drake_planks": "Drake Planks",

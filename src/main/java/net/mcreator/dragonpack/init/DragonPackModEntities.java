@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.dragonpack.entity.WoodenStaffEntity;
+import net.mcreator.dragonpack.entity.BOOMEntity;
 import net.mcreator.dragonpack.entity.AquaTridentEntity;
 import net.mcreator.dragonpack.DragonPackMod;
 
@@ -28,6 +29,9 @@ public class DragonPackModEntities {
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<WoodenStaffEntity>> WOODEN_STAFF = register("projectile_wooden_staff",
 			EntityType.Builder.<WoodenStaffEntity>of(WoodenStaffEntity::new, MobCategory.MISC).setCustomClientFactory(WoodenStaffEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<BOOMEntity>> BOOM = register("projectile_boom",
+			EntityType.Builder.<BOOMEntity>of(BOOMEntity::new, MobCategory.MISC).setCustomClientFactory(BOOMEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
