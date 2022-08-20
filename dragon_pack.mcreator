@@ -1108,6 +1108,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "d"
+    },
+    {
+      "name": "Pokeballh",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pokeballh"
     }
   ],
   "variable_elements": [],

@@ -9,7 +9,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ItemSupplier;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -22,6 +21,7 @@ import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.dragonpack.procedures.PokeballProjectileHitsPlayerProcedure;
 import net.mcreator.dragonpack.procedures.PokeballProjectileHitsBlockProcedure;
+import net.mcreator.dragonpack.init.DragonPackModItems;
 import net.mcreator.dragonpack.init.DragonPackModEntities;
 
 import java.util.Random;
@@ -52,12 +52,12 @@ public class PokeballEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(Items.SHIELD);
+		return new ItemStack(DragonPackModItems.POKEBALL.get());
 	}
 
 	@Override
 	protected ItemStack getPickupItem() {
-		return ItemStack.EMPTY;
+		return new ItemStack(DragonPackModItems.POKEBALL.get());
 	}
 
 	@Override

@@ -6,6 +6,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.ProjectileWeaponItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,6 +18,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
+import net.mcreator.dragonpack.init.DragonPackModItems;
 import net.mcreator.dragonpack.entity.PokeballEntity;
 
 public class PokeballItem extends Item {
@@ -53,9 +55,36 @@ public class PokeballItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				PokeballEntity entityarrow = PokeballEntity.shoot(world, entity, world.getRandom(), 1f, 15.5, 5);
-				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
-				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
+				ItemStack stack = ProjectileWeaponItem.getHeldProjectile(entity, e -> e.getItem() == DragonPackModItems.POKEBALL.get());
+				if (stack == ItemStack.EMPTY) {
+					for (int i = 0; i < entity.getInventory().items.size(); i++) {
+						ItemStack teststack = entity.getInventory().items.get(i);
+						if (teststack != null && teststack.getItem() == DragonPackModItems.POKEBALL.get()) {
+							stack = teststack;
+							break;
+						}
+					}
+				}
+				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
+					PokeballEntity entityarrow = PokeballEntity.shoot(world, entity, world.getRandom(), 1f, 15.5, 5);
+					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
+					if (entity.getAbilities().instabuild) {
+						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
+					} else {
+						if (new ItemStack(DragonPackModItems.POKEBALL.get()).isDamageableItem()) {
+							if (stack.hurt(1, world.getRandom(), entity)) {
+								stack.shrink(1);
+								stack.setDamageValue(0);
+								if (stack.isEmpty())
+									entity.getInventory().removeItem(stack);
+							}
+						} else {
+							stack.shrink(1);
+							if (stack.isEmpty())
+								entity.getInventory().removeItem(stack);
+						}
+					}
+				}
 			}
 		}
 	}
