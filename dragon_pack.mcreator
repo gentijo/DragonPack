@@ -937,6 +937,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tnt_sword"
+    },
+    {
+      "name": "Swit",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swit"
     }
   ],
   "variable_elements": [],
