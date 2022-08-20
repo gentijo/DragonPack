@@ -1,0 +1,49 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lit",
+    "customModelName": "Normal",
+    "name": "Tnt Sword",
+    "specialInfo": [
+      "This will blow up in 5",
+      "4",
+      "3",
+      "2",
+      "1......Boooom!!!!!"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 25.5,
+    "attackSpeed": 13.0,
+    "enchantability": 55,
+    "damageVsEntity": 5.5,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Blocks.TNT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "TntSwordRightclicked"
+    },
+    "onCrafted": {
+      "name": "TntSwordItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "TntSwordLivingEntityIsHitWithTool"
+    },
+    "onStoppedUsing": {
+      "name": "TntSwordOnPlayerStoppedUsing"
+    }
+  }
+}

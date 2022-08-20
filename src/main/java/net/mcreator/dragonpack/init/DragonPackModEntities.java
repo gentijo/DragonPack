@@ -17,6 +17,8 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.dragonpack.entity.WoodenStaffEntity;
+import net.mcreator.dragonpack.entity.FeEntity;
+import net.mcreator.dragonpack.entity.FEntity;
 import net.mcreator.dragonpack.entity.BombEntity;
 import net.mcreator.dragonpack.entity.BOOMEntity;
 import net.mcreator.dragonpack.entity.AquaTridentEntity;
@@ -37,6 +39,14 @@ public class DragonPackModEntities {
 	public static final RegistryObject<EntityType<BombEntity>> BOMB = register("projectile_bomb",
 			EntityType.Builder.<BombEntity>of(BombEntity::new, MobCategory.MISC).setCustomClientFactory(BombEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<FEntity>> F = register("f",
+			EntityType.Builder.<FEntity>of(FEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(FEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<FeEntity>> FE = register("fe",
+			EntityType.Builder.<FeEntity>of(FeEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(FeEntity::new).fireImmune().sized(0.7f, 0.4f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -45,10 +55,14 @@ public class DragonPackModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			FEntity.init();
+			FeEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(F.get(), FEntity.createAttributes().build());
+		event.put(FE.get(), FeEntity.createAttributes().build());
 	}
 }

@@ -11,6 +11,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.dragonpack.client.renderer.FeRenderer;
+import net.mcreator.dragonpack.client.renderer.FRenderer;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class DragonPackModEntityRenderers {
 	@SubscribeEvent
@@ -19,5 +22,7 @@ public class DragonPackModEntityRenderers {
 		event.registerEntityRenderer(DragonPackModEntities.WOODEN_STAFF.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(DragonPackModEntities.BOOM.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(DragonPackModEntities.BOMB.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DragonPackModEntities.F.get(), FRenderer::new);
+		event.registerEntityRenderer(DragonPackModEntities.FE.get(), FeRenderer::new);
 	}
 }

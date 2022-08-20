@@ -7,6 +7,7 @@ package net.mcreator.dragonpack.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -15,9 +16,11 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.dragonpack.item.WoodenStaffItem;
 import net.mcreator.dragonpack.item.WOODItem;
+import net.mcreator.dragonpack.item.TntSwordItem;
 import net.mcreator.dragonpack.item.ThunderItem;
 import net.mcreator.dragonpack.item.ThunderFistItem;
 import net.mcreator.dragonpack.item.StickOfWaterItem;
+import net.mcreator.dragonpack.item.ElementOrbItem;
 import net.mcreator.dragonpack.item.Electric_ingotSwordItem;
 import net.mcreator.dragonpack.item.Electric_ingotShovelItem;
 import net.mcreator.dragonpack.item.Electric_ingotPickaxeItem;
@@ -84,6 +87,12 @@ public class DragonPackModItems {
 	public static final RegistryObject<Item> WOODEN_STAFF = REGISTRY.register("wooden_staff", () -> new WoodenStaffItem());
 	public static final RegistryObject<Item> BOOM = REGISTRY.register("boom", () -> new BOOMItem());
 	public static final RegistryObject<Item> BOMB = REGISTRY.register("bomb", () -> new BombItem());
+	public static final RegistryObject<Item> F = REGISTRY.register("f_spawn_egg",
+			() -> new ForgeSpawnEggItem(DragonPackModEntities.F, -6711040, -16751002, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> FE = REGISTRY.register("fe_spawn_egg",
+			() -> new ForgeSpawnEggItem(DragonPackModEntities.FE, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> ELEMENT_ORB = REGISTRY.register("element_orb", () -> new ElementOrbItem());
+	public static final RegistryObject<Item> TNT_SWORD = REGISTRY.register("tnt_sword", () -> new TntSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
