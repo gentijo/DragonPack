@@ -20,6 +20,8 @@ import net.mcreator.dragonpack.item.TntSwordItem;
 import net.mcreator.dragonpack.item.ThunderItem;
 import net.mcreator.dragonpack.item.ThunderFistItem;
 import net.mcreator.dragonpack.item.StickOfWaterItem;
+import net.mcreator.dragonpack.item.RedsteelkatanaItem;
+import net.mcreator.dragonpack.item.RedsteelingotItem;
 import net.mcreator.dragonpack.item.PokeballItem;
 import net.mcreator.dragonpack.item.GfItem;
 import net.mcreator.dragonpack.item.ElementOrbItem;
@@ -99,6 +101,8 @@ public class DragonPackModItems {
 			() -> new ForgeSpawnEggItem(DragonPackModEntities.DOOMWOLF, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> GF_BUCKET = REGISTRY.register("gf_bucket", () -> new GfItem());
 	public static final RegistryObject<Item> POKEBALL = REGISTRY.register("pokeball", () -> new PokeballItem());
+	public static final RegistryObject<Item> REDSTEELINGOT = REGISTRY.register("redsteelingot", () -> new RedsteelingotItem());
+	public static final RegistryObject<Item> REDSTEELKATANA = REGISTRY.register("redsteelkatana", () -> new RedsteelkatanaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
