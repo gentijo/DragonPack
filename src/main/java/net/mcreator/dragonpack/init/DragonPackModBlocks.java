@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.dragonpack.block.GfBlock;
 import net.mcreator.dragonpack.block.Electric_ingotOreBlock;
 import net.mcreator.dragonpack.block.Electric_ingotBlockBlock;
 import net.mcreator.dragonpack.block.DrakeWoodBlock;
@@ -44,4 +45,5 @@ public class DragonPackModBlocks {
 	public static final RegistryObject<Block> CRYSTAL_BLOCK = REGISTRY.register("crystal_block", () -> new CrystalBlockBlock());
 	public static final RegistryObject<Block> ELECTRIC_INGOT_ORE = REGISTRY.register("electric_ingot_ore", () -> new Electric_ingotOreBlock());
 	public static final RegistryObject<Block> ELECTRIC_INGOT_BLOCK = REGISTRY.register("electric_ingot_block", () -> new Electric_ingotBlockBlock());
+	public static final RegistryObject<Block> GF = REGISTRY.register("gf", () -> new GfBlock());
 }

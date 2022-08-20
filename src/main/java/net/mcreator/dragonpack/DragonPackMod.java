@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.dragonpack.init.DragonPackModItems;
+import net.mcreator.dragonpack.init.DragonPackModFluids;
 import net.mcreator.dragonpack.init.DragonPackModFeatures;
 import net.mcreator.dragonpack.init.DragonPackModEntities;
 import net.mcreator.dragonpack.init.DragonPackModEnchantments;
@@ -54,7 +55,7 @@ public class DragonPackMod {
 		DragonPackModEntities.REGISTRY.register(bus);
 
 		DragonPackModFeatures.REGISTRY.register(bus);
-
+		DragonPackModFluids.REGISTRY.register(bus);
 		DragonPackModEnchantments.REGISTRY.register(bus);
 
 		DragonPackModBiomes.REGISTRY.register(bus);

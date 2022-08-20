@@ -20,6 +20,7 @@ import net.mcreator.dragonpack.item.TntSwordItem;
 import net.mcreator.dragonpack.item.ThunderItem;
 import net.mcreator.dragonpack.item.ThunderFistItem;
 import net.mcreator.dragonpack.item.StickOfWaterItem;
+import net.mcreator.dragonpack.item.GfItem;
 import net.mcreator.dragonpack.item.ElementOrbItem;
 import net.mcreator.dragonpack.item.Electric_ingotSwordItem;
 import net.mcreator.dragonpack.item.Electric_ingotShovelItem;
@@ -93,6 +94,9 @@ public class DragonPackModItems {
 			() -> new ForgeSpawnEggItem(DragonPackModEntities.FE, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> ELEMENT_ORB = REGISTRY.register("element_orb", () -> new ElementOrbItem());
 	public static final RegistryObject<Item> TNT_SWORD = REGISTRY.register("tnt_sword", () -> new TntSwordItem());
+	public static final RegistryObject<Item> DOOMWOLF = REGISTRY.register("doomwolf_spawn_egg",
+			() -> new ForgeSpawnEggItem(DragonPackModEntities.DOOMWOLF, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> GF_BUCKET = REGISTRY.register("gf_bucket", () -> new GfItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

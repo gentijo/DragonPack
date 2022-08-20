@@ -19,6 +19,7 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.dragonpack.world.features.ores.Electric_ingotOreFeature;
 import net.mcreator.dragonpack.world.features.ores.CrystalOreFeature;
+import net.mcreator.dragonpack.world.features.lakes.GfFeature;
 import net.mcreator.dragonpack.DragonPackMod;
 
 import java.util.function.Supplier;
@@ -35,6 +36,8 @@ public class DragonPackModFeatures {
 	public static final RegistryObject<Feature<?>> ELECTRIC_INGOT_ORE = register("electric_ingot_ore", Electric_ingotOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, Electric_ingotOreFeature.GENERATE_BIOMES,
 					Electric_ingotOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> GF = register("gf", GfFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.LAKES, GfFeature.GENERATE_BIOMES, GfFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

@@ -13,6 +13,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.dragonpack.client.renderer.FeRenderer;
 import net.mcreator.dragonpack.client.renderer.FRenderer;
+import net.mcreator.dragonpack.client.renderer.DoomwolfRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class DragonPackModEntityRenderers {
@@ -24,5 +25,6 @@ public class DragonPackModEntityRenderers {
 		event.registerEntityRenderer(DragonPackModEntities.BOMB.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(DragonPackModEntities.F.get(), FRenderer::new);
 		event.registerEntityRenderer(DragonPackModEntities.FE.get(), FeRenderer::new);
+		event.registerEntityRenderer(DragonPackModEntities.DOOMWOLF.get(), DoomwolfRenderer::new);
 	}
 }

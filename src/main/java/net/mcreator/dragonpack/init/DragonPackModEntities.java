@@ -19,6 +19,7 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.dragonpack.entity.WoodenStaffEntity;
 import net.mcreator.dragonpack.entity.FeEntity;
 import net.mcreator.dragonpack.entity.FEntity;
+import net.mcreator.dragonpack.entity.DoomwolfEntity;
 import net.mcreator.dragonpack.entity.BombEntity;
 import net.mcreator.dragonpack.entity.BOOMEntity;
 import net.mcreator.dragonpack.entity.AquaTridentEntity;
@@ -47,6 +48,11 @@ public class DragonPackModEntities {
 	public static final RegistryObject<EntityType<FeEntity>> FE = register("fe",
 			EntityType.Builder.<FeEntity>of(FeEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(FeEntity::new).fireImmune().sized(0.7f, 0.4f));
+	public static final RegistryObject<EntityType<DoomwolfEntity>> DOOMWOLF = register("doomwolf",
+			EntityType.Builder.<DoomwolfEntity>of(DoomwolfEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(DoomwolfEntity::new)
+
+					.sized(0.9f, 1.4f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -57,6 +63,7 @@ public class DragonPackModEntities {
 		event.enqueueWork(() -> {
 			FEntity.init();
 			FeEntity.init();
+			DoomwolfEntity.init();
 		});
 	}
 
@@ -64,5 +71,6 @@ public class DragonPackModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(F.get(), FEntity.createAttributes().build());
 		event.put(FE.get(), FeEntity.createAttributes().build());
+		event.put(DOOMWOLF.get(), DoomwolfEntity.createAttributes().build());
 	}
 }
