@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.dragonpack.entity.WoodenStaffEntity;
+import net.mcreator.dragonpack.entity.PokeballEntity;
 import net.mcreator.dragonpack.entity.FeEntity;
 import net.mcreator.dragonpack.entity.FEntity;
 import net.mcreator.dragonpack.entity.DoomwolfEntity;
@@ -53,6 +54,9 @@ public class DragonPackModEntities {
 					.setUpdateInterval(3).setCustomClientFactory(DoomwolfEntity::new)
 
 					.sized(0.9f, 1.4f));
+	public static final RegistryObject<EntityType<PokeballEntity>> POKEBALL = register("projectile_pokeball",
+			EntityType.Builder.<PokeballEntity>of(PokeballEntity::new, MobCategory.MISC).setCustomClientFactory(PokeballEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

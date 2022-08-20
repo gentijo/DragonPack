@@ -26,6 +26,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.dragonpack.init.DragonPackModPotions;
+import net.mcreator.dragonpack.init.DragonPackModMobEffects;
 import net.mcreator.dragonpack.init.DragonPackModItems;
 import net.mcreator.dragonpack.init.DragonPackModFluids;
 import net.mcreator.dragonpack.init.DragonPackModFeatures;
@@ -57,7 +59,8 @@ public class DragonPackMod {
 		DragonPackModFeatures.REGISTRY.register(bus);
 		DragonPackModFluids.REGISTRY.register(bus);
 		DragonPackModEnchantments.REGISTRY.register(bus);
-
+		DragonPackModMobEffects.REGISTRY.register(bus);
+		DragonPackModPotions.REGISTRY.register(bus);
 		DragonPackModBiomes.REGISTRY.register(bus);
 
 	}

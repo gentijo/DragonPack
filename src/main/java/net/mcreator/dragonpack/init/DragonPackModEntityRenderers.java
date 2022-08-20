@@ -26,5 +26,6 @@ public class DragonPackModEntityRenderers {
 		event.registerEntityRenderer(DragonPackModEntities.F.get(), FRenderer::new);
 		event.registerEntityRenderer(DragonPackModEntities.FE.get(), FeRenderer::new);
 		event.registerEntityRenderer(DragonPackModEntities.DOOMWOLF.get(), DoomwolfRenderer::new);
+		event.registerEntityRenderer(DragonPackModEntities.POKEBALL.get(), ThrownItemRenderer::new);
 	}
 }

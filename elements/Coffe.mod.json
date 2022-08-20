@@ -1,0 +1,30 @@
+{
+  "_fv": 28,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Coffe",
+    "splashName": "Splash Potion of Coffe",
+    "lingeringName": "Lingering Potion of Coffe",
+    "arrowName": "Arrow of Coffe",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Caffine"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
